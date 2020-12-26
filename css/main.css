@@ -248,6 +248,7 @@
 .social-list-link:hover,
 .social-list-link:focus {
   background-color: var(--accent-color);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-list-icon {
   width: 20px;
@@ -355,10 +356,12 @@
 .regular-list-item:hover .regular-icon,
 .regular-list-item:focus .regular-icon {
   fill: var(--accent-color);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .regular-list-link:focus {
   fill: var(--accent-color);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .regular-list-link {
