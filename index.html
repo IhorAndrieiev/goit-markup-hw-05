@@ -87,7 +87,8 @@
 
           <h1 class="visually-hidden">Студия создания сайтов WebStudio </h1>
           <p class="hero-title">Эффективные решения для вашего бизнеса</p>
-          <button type="button" class="hero-btn" data-modal-open>
+          <button type="button" 
+          class="hero-btn" data-modal-open>
             Заказать услугу</button>
 
         </div>
@@ -146,20 +147,35 @@
             <li class="work-img">
               
               <img src="./images/box1.jpg" 
-              alt="работа с кодом" width="370" height="294">
+              alt="работа с кодом руки на клавиатуре" 
+              width="370" 
+              height="294">
               
+              <div class="workart">
+                   <p class="work-info">Десктопные приложения</p>
+              </div>
             </li>
             <li class="work-img">
               
               <img src="./images/box2.jpg" 
-              alt="оптимизация для телефонов" width="370" height="294">
+              alt="оптимизация для телефонов телефон в руке" 
+              width="370" 
+              height="294">
               
+              <div class="workart">
+                   <p class="work-info">Мобильные приложения</p>
+              </div>
             </li>
             <li class="work-img">
               
               <img src="./images/box3.jpg" 
-              alt="работа с визуалом" width="370" height="294">
+              alt="работа с визуалом планшет с гаммой цветов" 
+              width="370" 
+              height="294">
               
+              <div class="workart">
+                   <p class="work-info">Дизайнерские решения</p>
+              </div>
             </li>
         </ul>
       </div>
@@ -472,5 +488,21 @@
       
     </div>
   </footer>
+    <!-- =========== BACKDROP ========= -->
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" 
+        class="modal-close-btn" data-modal-close>
+            <svg class="icon-close-btn" 
+            width="11" 
+            height="11"
+            />
+            <use href="./images/sprite.svg#icon-icon-close-btn">
+            </use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
  </body>
 </html>
