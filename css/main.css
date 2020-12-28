@@ -240,6 +240,7 @@
   border-radius: 50%;
   background-color: #ffffff;
   margin-right: 10px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-list-link:hover .social-list-icon,
 .social-list-link:focus .social-list-icon {
@@ -248,7 +249,7 @@
 .social-list-link:hover,
 .social-list-link:focus {
   background-color: var(--accent-color);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  /* transition: 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 .social-list-icon {
   width: 20px;
@@ -326,6 +327,9 @@
 
   color: var(--title-text-color);
 }
+.regular-icon {
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 .regular-list {
   display: flex;
@@ -334,6 +338,7 @@
   /* margin-bottom: 94px; */
   /* margin-top: 94px; */
   /* padding-bottom: 94px; */
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .regular-list-item {
@@ -345,6 +350,7 @@
   border-radius: 4px;
   justify-content: center;
   align-items: center;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .regular-list-item:hover,
@@ -356,12 +362,11 @@
 .regular-list-item:hover .regular-icon,
 .regular-list-item:focus .regular-icon {
   fill: var(--accent-color);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .regular-list-link:focus {
   fill: var(--accent-color);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  /* transition: 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .regular-list-link {
@@ -371,6 +376,7 @@
   width: 170px;
   height: 90px;
   fill: #afb1b8;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* =========BACKDROP================ */
 .backdrop {
